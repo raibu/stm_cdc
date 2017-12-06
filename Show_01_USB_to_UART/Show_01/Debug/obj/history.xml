@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Rabu\Downloads\Show_01_USB_to_UART -I..\..\..\..\..\Users\Rabu\Downloads\Show_01_USB_to_UART\Show_01_USB_to_UART\cmsis_boot -I..\..\..\..\..\Users\Rabu\Downloads\Show_01_USB_to_UART\Show_01_USB_to_UART\ub_lib -I..\..\..\..\..\Users\Rabu\Downloads\Show_01_USB_to_UART\Show_01_USB_to_UART\cmsis_lib\include -I..\..\..\..\..\Users\Rabu\Downloads\Show_01_USB_to_UART\Show_01_USB_to_UART -I..\..\..\..\..\Users\Rabu\Downloads\Show_01_USB_to_UART\Show_01_USB_to_UART\cmsis -I..\..\..\..\..\Users\Rabu\Downloads\Show_01_USB_to_UART\Show_01_USB_to_UART\ub_lib\usb_cdc_lolevel -I..\..\..\..\..\Users\Rabu\Downloads\Show_01_USB_to_UART\Show_01_USB_to_UART\cmsis_lib">
+      <target file="stm32f4xx_gpio.o" lastModified="160096d67b5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13f4b97c120"/>
+      </target>
+      <target file="stm32_ub_uart.o" lastModified="160096d6736">
+         <source file="..\..\..\ub_lib\stm32_ub_uart.c" lastModified="13f4bda67a0"/>
+      </target>
+      <target file="stm32_ub_usb_cdc.o" lastModified="160096d6554">
+         <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="13f4bdc9250"/>
+      </target>
+      <target file="usbd_core.o" lastModified="160096d6652">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="13dea54d930"/>
+      </target>
+      <target file="usbd_desc.o" lastModified="160096d6771">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="13de431d580"/>
+      </target>
+      <target file="usbd_cdc_core.o" lastModified="160096d69cb">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="13dea39cf50"/>
+      </target>
+      <target file="usbd_cdc_vcp.o" lastModified="160096d67f7">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="13f4bc4dc00"/>
+      </target>
+      <target file="usbd_ioreq.o" lastModified="160096d6a8a">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="13de4322b70"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="160096d6607">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13f4b97c120"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="160096d688c">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13f4b97c120"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="160096d68cd">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="13dea41ce30"/>
+      </target>
+      <target file="misc.o" lastModified="160096d6a02">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13f4b9fdf40"/>
+      </target>
+      <target file="usbd_req.o" lastModified="160096d6924">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="13de432cf80"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="160096d6a4d">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="13de43b1c80"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="160096d6981">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="13dea534ac0"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="160096d66ed">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13f4b97c120"/>
+      </target>
+      <target file="usb_core.o" lastModified="160096d6518">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="13dea516660"/>
+      </target>
+      <target file="syscalls.o" lastModified="1600cb72ce1">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1600cb71310"/>
+      </target>
+      <target file="usbd_usr.o" lastModified="160096d658f">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="13dea635050"/>
+      </target>
+      <target file="main.o" lastModified="1600cb7e0db">
+         <source file="..\..\..\main.c" lastModified="1600cb7d8f2"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="160096d65e1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="13f4baa6690"/>
+      </target>
+   </processor>
+</history>
